@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657556451D4B93BD00B06E17 /* UIViewGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 657556441D4B93BD00B06E17 /* UIViewGradient.m */; };
 		FEA0C64A1CEB72C600A5EE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C6491CEB72C600A5EE61 /* main.m */; };
 		FEA0C64D1CEB72C600A5EE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C64C1CEB72C600A5EE61 /* AppDelegate.m */; };
 		FEA0C6501CEB72C600A5EE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C64F1CEB72C600A5EE61 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657556431D4B93BD00B06E17 /* UIViewGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewGradient.h; sourceTree = "<group>"; };
+		657556441D4B93BD00B06E17 /* UIViewGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewGradient.m; sourceTree = "<group>"; };
 		FEA0C6451CEB72C600A5EE61 /* Studidle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studidle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA0C6491CEB72C600A5EE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEA0C64B1CEB72C600A5EE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				FEA0C64E1CEB72C600A5EE61 /* ViewController.h */,
 				FEA0C64F1CEB72C600A5EE61 /* ViewController.m */,
 				FEA0C6511CEB72C600A5EE61 /* Main.storyboard */,
+				657556431D4B93BD00B06E17 /* UIViewGradient.h */,
+				657556441D4B93BD00B06E17 /* UIViewGradient.m */,
 				FEA0C6541CEB72C600A5EE61 /* Assets.xcassets */,
 				FEA0C6561CEB72C600A5EE61 /* LaunchScreen.storyboard */,
 				FEA0C6591CEB72C600A5EE61 /* Info.plist */,
@@ -152,6 +157,7 @@
 			files = (
 				FEA0C6501CEB72C600A5EE61 /* ViewController.m in Sources */,
 				FEA0C64D1CEB72C600A5EE61 /* AppDelegate.m in Sources */,
+				657556451D4B93BD00B06E17 /* UIViewGradient.m in Sources */,
 				FEA0C64A1CEB72C600A5EE61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +309,7 @@
 				FEA0C65E1CEB72C600A5EE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
