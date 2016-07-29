@@ -65,4 +65,7 @@
             <point key="canvasLocation" x="162" y="818"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="l1d-qt-rIs"/>
+    </inferredMetricsTieBreakers>
 </document>
