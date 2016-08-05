@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		657556451D4B93BD00B06E17 /* UIViewGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 657556441D4B93BD00B06E17 /* UIViewGradient.m */; };
+		651F063D1D54AA2D0064ECF1 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */; };
+		6579C2281D54C633001BBF70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C2271D54C633001BBF70 /* UIKit.framework */; };
+		6579C22A1D54C639001BBF70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C2291D54C639001BBF70 /* Foundation.framework */; };
+		6579C22C1D54C63E001BBF70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C22B1D54C63E001BBF70 /* CoreGraphics.framework */; };
 		FEA0C64A1CEB72C600A5EE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C6491CEB72C600A5EE61 /* main.m */; };
 		FEA0C64D1CEB72C600A5EE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C64C1CEB72C600A5EE61 /* AppDelegate.m */; };
 		FEA0C6501CEB72C600A5EE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA0C64F1CEB72C600A5EE61 /* ViewController.m */; };
@@ -17,8 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		657556431D4B93BD00B06E17 /* UIViewGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewGradient.h; sourceTree = "<group>"; };
-		657556441D4B93BD00B06E17 /* UIViewGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewGradient.m; sourceTree = "<group>"; };
+		651F063B1D54AA2D0064ECF1 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		6579C2271D54C633001BBF70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6579C2291D54C639001BBF70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6579C22B1D54C63E001BBF70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FEA0C6451CEB72C600A5EE61 /* Studidle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studidle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA0C6491CEB72C600A5EE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEA0C64B1CEB72C600A5EE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6579C22C1D54C63E001BBF70 /* CoreGraphics.framework in Frameworks */,
+				6579C22A1D54C639001BBF70 /* Foundation.framework in Frameworks */,
+				6579C2281D54C633001BBF70 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,9 @@
 		FEA0C63C1CEB72C500A5EE61 = {
 			isa = PBXGroup;
 			children = (
+				6579C22B1D54C63E001BBF70 /* CoreGraphics.framework */,
+				6579C2291D54C639001BBF70 /* Foundation.framework */,
+				6579C2271D54C633001BBF70 /* UIKit.framework */,
 				FEA0C6471CEB72C600A5EE61 /* Studidle */,
 				FEA0C6461CEB72C600A5EE61 /* Products */,
 			);
@@ -61,13 +73,12 @@
 		FEA0C6471CEB72C600A5EE61 /* Studidle */ = {
 			isa = PBXGroup;
 			children = (
+				651F063B1D54AA2D0064ECF1 /* PageContentViewController.h */,
+				651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */,
 				FEA0C64B1CEB72C600A5EE61 /* AppDelegate.h */,
 				FEA0C64C1CEB72C600A5EE61 /* AppDelegate.m */,
 				FEA0C64E1CEB72C600A5EE61 /* ViewController.h */,
 				FEA0C64F1CEB72C600A5EE61 /* ViewController.m */,
-				FEA0C6511CEB72C600A5EE61 /* Main.storyboard */,
-				657556431D4B93BD00B06E17 /* UIViewGradient.h */,
-				657556441D4B93BD00B06E17 /* UIViewGradient.m */,
 				FEA0C6541CEB72C600A5EE61 /* Assets.xcassets */,
 				FEE56F421D4B980E004FFF47 /* Main.storyboard */,
 				FEA0C6561CEB72C600A5EE61 /* LaunchScreen.storyboard */,
@@ -157,8 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA0C6501CEB72C600A5EE61 /* ViewController.m in Sources */,
+				651F063D1D54AA2D0064ECF1 /* PageContentViewController.m in Sources */,
 				FEA0C64D1CEB72C600A5EE61 /* AppDelegate.m in Sources */,
-				657556451D4B93BD00B06E17 /* UIViewGradient.m in Sources */,
 				FEA0C64A1CEB72C600A5EE61 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
