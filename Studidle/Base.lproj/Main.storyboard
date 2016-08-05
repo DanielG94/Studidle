@@ -197,6 +197,14 @@
             </objects>
             <point key="canvasLocation" x="139" y="121"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="tFh-X7-r4g">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="rvh-Cq-gRd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9D7-Tq-mhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217" y="680"/>
+        </scene>
         <!--vcWork-->
         <scene sceneID="FGv-xA-urM">
             <objects>
