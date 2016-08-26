@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651F063D1D54AA2D0064ECF1 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */; };
+		654FB52B1D706B7F008F5D66 /* Scenes.m in Sources */ = {isa = PBXBuildFile; fileRef = 654FB52A1D706B7F008F5D66 /* Scenes.m */; };
 		6579C2281D54C633001BBF70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C2271D54C633001BBF70 /* UIKit.framework */; };
 		6579C22A1D54C639001BBF70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C2291D54C639001BBF70 /* Foundation.framework */; };
 		6579C22C1D54C63E001BBF70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6579C22B1D54C63E001BBF70 /* CoreGraphics.framework */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		651F063B1D54AA2D0064ECF1 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
-		651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		654FB5291D706B7F008F5D66 /* Scenes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scenes.h; sourceTree = "<group>"; };
+		654FB52A1D706B7F008F5D66 /* Scenes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scenes.m; sourceTree = "<group>"; };
 		6579C2271D54C633001BBF70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6579C2291D54C639001BBF70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6579C22B1D54C63E001BBF70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -73,8 +73,8 @@
 		FEA0C6471CEB72C600A5EE61 /* Studidle */ = {
 			isa = PBXGroup;
 			children = (
-				651F063B1D54AA2D0064ECF1 /* PageContentViewController.h */,
-				651F063C1D54AA2D0064ECF1 /* PageContentViewController.m */,
+				654FB5291D706B7F008F5D66 /* Scenes.h */,
+				654FB52A1D706B7F008F5D66 /* Scenes.m */,
 				FEA0C64B1CEB72C600A5EE61 /* AppDelegate.h */,
 				FEA0C64C1CEB72C600A5EE61 /* AppDelegate.m */,
 				FEA0C64E1CEB72C600A5EE61 /* ViewController.h */,
@@ -167,8 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654FB52B1D706B7F008F5D66 /* Scenes.m in Sources */,
 				FEA0C6501CEB72C600A5EE61 /* ViewController.m in Sources */,
-				651F063D1D54AA2D0064ECF1 /* PageContentViewController.m in Sources */,
 				FEA0C64D1CEB72C600A5EE61 /* AppDelegate.m in Sources */,
 				FEA0C64A1CEB72C600A5EE61 /* main.m in Sources */,
 			);
